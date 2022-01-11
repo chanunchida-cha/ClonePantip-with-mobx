@@ -1,0 +1,45 @@
+/* font
+font-family: 'Kanit', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */
+.header{
+    width: 100%;
+    height:70px;
+    background: rgb(91,86,186);
+background: linear-gradient(90deg, rgb(89, 171, 226) 0%, rgb(113, 195, 250) 35%, rgb(129, 205, 255) 100%);
+    color: #fff;
+    display: flex;
+    padding-left: 200px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.menu{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: pointer;
+    color: #fff;
+    
+
+}
+.menu-list{
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+.menu-active{
+    color: #cccccc;
+   
+
+}
