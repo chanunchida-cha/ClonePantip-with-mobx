@@ -12,21 +12,21 @@ const ShowPost =observer( ()=> {
           console.log(thread);
           console.log("idShowpost",thread.id);
           return(
-            <div  key={thread.id}>
+            <div className="post"  key={thread.id}>
            
                
                 <div>
                   
-                {thread.auther}
+                ผู้เขียน : {thread.auther}
                 
                 <p>
                 <Link to={`/post/${thread.id} `}>
-                    {thread.topic}
+                  หัวข้อ :  {thread.topic}
                     </Link>
                 </p>
                 
                 <p>
-                    {thread.post}
+                   เนื้อหา: {thread.post}
                 </p>
               
                 </div>

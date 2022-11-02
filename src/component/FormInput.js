@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { appState } from "./AppState";
 import {observer} from "mobx-react-lite"
+import "../App.css"
 
 
 let genID = 0;

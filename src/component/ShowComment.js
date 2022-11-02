@@ -8,7 +8,7 @@ const ShowComment = observer((props) => {
   return (
       <center>
     <div>
-      <div>
+      <div className="container-post">
         {post.comments.map((comment) => {
           return (
             <div key={comment.id}>
